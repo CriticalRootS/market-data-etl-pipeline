@@ -1,0 +1,21 @@
+# Environment
+.env
+.env.local
+.env.production
+
+#template 
+!.env.example
+
+#Logs
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
